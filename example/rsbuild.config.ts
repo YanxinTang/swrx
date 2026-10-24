@@ -13,4 +13,7 @@ export default defineConfig({
   html: {
     title: 'swrx 示例',
   },
+  server: {
+    base: '/swrx',
+  },
 });
