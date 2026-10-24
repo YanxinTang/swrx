@@ -1,4 +1,4 @@
-import { useApiImmutable } from 'swrx';
+import { useApiImmutable } from '@tyx1703/swrx';
 
 interface Settings {
   theme: 'light' | 'dark';

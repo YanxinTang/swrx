@@ -1,6 +1,24 @@
 {
   "name": "@tyx1703/swrx",
   "version": "1.0.0",
+  "description": "fetcher 即 key，类型安全的 SWR hooks",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/YanxinTang/swrx.git"
+  },
+  "homepage": "https://yanxintang.github.io/swrx/",
+  "bugs": {
+    "url": "https://github.com/YanxinTang/swrx/issues"
+  },
+  "keywords": [
+    "swr",
+    "react",
+    "hooks",
+    "typescript",
+    "data-fetching",
+    "fetcher"
+  ],
   "type": "module",
   "packageManager": "pnpm@12.3.4",
   "exports": {

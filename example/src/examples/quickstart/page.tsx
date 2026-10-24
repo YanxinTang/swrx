@@ -1,4 +1,4 @@
-import { useApi } from 'swrx';
+import { useApi } from '@tyx1703/swrx';
 import { getUser } from './api';
 
 export function UserProfile({ id }: { id: number }) {
@@ -9,9 +9,9 @@ export function UserProfile({ id }: { id: number }) {
   if (!data) return null;
 
   return (
-    <article>
+    <section>
       <h2>{data.name}</h2>
       <p>{data.role}</p>
-    </article>
+    </section>
   );
 }

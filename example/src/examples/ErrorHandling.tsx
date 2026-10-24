@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { useApi } from 'swrx';
+import { useApi } from '@tyx1703/swrx';
 import { Button } from '../components/Button';
 
 interface User {

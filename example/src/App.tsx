@@ -120,7 +120,7 @@ const App = () => (
             {pkgJson.version}
           </span>
           <a
-            href="https://github.com/tyx1703/swrx"
+            href="https://github.com/YanxinTang/swrx"
             target="_blank"
             rel="noreferrer"
             className="inline-flex h-7 items-center border border-offgray-300 px-2.5 font-zed-mono text-[10px] uppercase tracking-wider text-offgray-700 transition-colors hover:border-offgray-400 hover:text-offgray-950"
@@ -128,7 +128,7 @@ const App = () => (
             GitHub
           </a>
           <a
-            href="https://www.npmjs.com/package/swrx"
+            href="https://www.npmjs.com/package/@tyx1703/swrx"
             target="_blank"
             rel="noreferrer"
             className="inline-flex h-7 items-center border border-offgray-300 px-2.5 font-zed-mono text-[10px] uppercase tracking-wider text-offgray-700 transition-colors hover:border-offgray-400 hover:text-offgray-950"

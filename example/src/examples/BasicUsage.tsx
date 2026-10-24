@@ -1,4 +1,4 @@
-import { useApi } from 'swrx';
+import { useApi } from '@tyx1703/swrx';
 
 interface User {
   id: number;
