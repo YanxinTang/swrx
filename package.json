@@ -2,6 +2,7 @@
   "name": "@tyx1703/swrx",
   "version": "1.0.0",
   "type": "module",
+  "packageManager": "pnpm@12.3.4",
   "exports": {
     ".": {
       "types": "./dist/index.d.ts",
