@@ -27,7 +27,7 @@ jobs:
         run: pnpm ci
 
       - name: Unit tests
-        run: pnpm --filter swrx run test
+        run: pnpm --filter @tyx1703/swrx run test
 
   deploy-docs:
     needs: test
@@ -55,8 +55,11 @@ jobs:
       - name: Install dependencies
         run: pnpm ci
 
+      - name: Build lib
+        run: pnpm --filter swrx build
+
       - name: Build docs
-        run: pnpm --filter swrx-example build
+        run: pnpm --filter example build
 
       - uses: actions/upload-pages-artifact@v5
         with:
