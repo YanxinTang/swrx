@@ -31,7 +31,7 @@ jobs:
         run: pnpm ci
 
       - name: Build
-        run: pnpm --filter swrx build
+        run: pnpm --filter @tyx1703/swrx build
 
       - name: Publish to npm
         run: pnpm publish --access public --no-git-checks

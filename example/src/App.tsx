@@ -165,7 +165,7 @@ const App = () => (
           <div className="mt-9 flex flex-col gap-3 sm:flex-row sm:items-center">
             <div className="flex h-8 min-w-0 items-center gap-3 border border-offgray-200 bg-white/80 px-3 font-zed-mono text-xs text-offgray-700">
               <span className="text-accent-blue">$</span>
-              <code className="min-w-0">pnpm add swrx swr</code>
+              <code className="min-w-0">pnpm add @tyx1703/swrx swr</code>
             </div>
             <a href="#examples">
               <Button>查看示例</Button>
@@ -237,7 +237,7 @@ const App = () => (
     <footer className="border-t border-offgray-200">
       <div className="mx-auto flex max-w-6xl flex-col gap-3 px-6 py-8 sm:flex-row sm:items-center sm:justify-between">
         <p className="font-zed-mono text-[10px] uppercase tracking-wider text-offgray-500">
-          swrx · Built on SWR · MIT
+          @tyx1703/swrx · Built on SWR · MIT
         </p>
         <p className="font-zed-mono text-[10px] uppercase tracking-wider text-offgray-500">
           Type-safe data fetching

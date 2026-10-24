@@ -7,7 +7,7 @@
 ## 安装
 
 ```bash
-pnpm add swrx swr
+pnpm add @tyx1703/swrx swr
 ```
 
 `swr` 是 peer dependency，需单独安装。支持 `swr@^2.0.0`。

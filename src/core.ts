@@ -1,5 +1,5 @@
 /**
- * 一个可被 swrx 调用的 API 函数。
+ * 一个可被 @tyx1703/swrx 调用的 API 函数。
  *
  * @template A - 参数元组类型
  * @template R - 解析后的数据类型（同步返回或 Promise 解析值）
